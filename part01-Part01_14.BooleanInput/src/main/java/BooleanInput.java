@@ -16,4 +16,3 @@ public class BooleanInput {
         scanner.close();
     }
 }
-git 
