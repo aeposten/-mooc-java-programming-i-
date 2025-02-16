@@ -7,5 +7,13 @@ public class FromWhereToWhere {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Where to?");
+
+        int whereTo = Integer.valueOf(scanner.nextLine());
+        int whereFrom = Integer.valueOf(scanner.nextLine());
+
+        for (int i = whereFrom; i <= whereTo; i++) {
+            System.out.println(i);
+        }
     }
 }
